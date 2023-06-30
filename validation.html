@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validation() {
+            var name = document.getElementById("name.validate").value
+            var email = document.getElementById("email.validate").value
+            var password = document.getElementById("password.validate").value
+            var namePattern = /^[A-Za-z]+$/;
+            if (!namePattern.test(name)) {
+                alert("please enter valid name")
+                return false;
+            }
+            var emailPattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/;
+            if (!emailPattern.test(email)) {
+                alert("Please enter a valid email address.");
+                return false;
+            }
+            if (password.length < 6) {
+                alert("Password must be at least 6 characters long.");
+                return false;
+            }
+            alert("submitted")
+            return true
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Form Validation</h2>
+    <form onsubmit="validation()">
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name.validate" placeholder="name" required>
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email.validate" placeholder="email" required>
+        <label for="password">Password :</label>
+        <input type="password" name="password" id="password.validate" placeholder="password" required><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
