@@ -1,0 +1,84 @@
+.homepage-container {
+    background-color: orange;
+  }
+.maincont{
+    display: inline-block;
+    height: 100%;
+}
+.thumbnail{
+    display: block;
+    filter: blur(2px);
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+}
+.captions{
+    display: block;
+    width: auto;
+    position: relative;
+    top:-400px;
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+    font-weight: 900;
+    font-family: monospace;
+}
+@media only screen and (max-width:400px){
+    .maincont{
+        display: block;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .thumbnail img {
+        display: block;
+        filter: blur(2px);
+        height: 92vh;
+        width:50vh;
+        margin-top: 30px;
+    }
+    .captions{
+        display: block;
+        width: auto;
+        position: relative;
+        top:-500px;
+        font-size: 20px;
+        font-weight: 900;
+        font-family: monospace;
+        color: white;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+        letter-spacing: 3px;
+    }
+    .navbar{
+        width: 60%;
+        height: 50px;
+        background: #F7F7F7;
+        border-bottom: 1px solid #555;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo-container{
+        position: absolute;
+        left: -170px;
+    }
+    .logo-container span img{
+        font-weight: 500;
+        cursor: pointer;
+        width: 40px;
+    }
+    .links-container{
+        position: absolute;
+        left: 170px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .links a{
+        text-decoration: none;
+        outline: none;
+        color: black;
+        padding-left: 50px;
+    }
+    .links a:hover{
+        color: #F53B2E;
+    }
+}
