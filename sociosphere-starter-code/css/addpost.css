@@ -1,0 +1,53 @@
+body {
+    background-color: #eeeeee;
+}
+
+.h7 {
+    font-size: 0.8rem;
+}
+
+.gedf-wrapper {
+    margin-top: 0.97rem;
+}
+.thummpsupdown:hover{
+    border: 2px solid red;
+}
+
+@media (min-width: 992px) {
+    .gedf-main {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .gedf-card {
+        margin-bottom: 2.5rem;
+    }
+}
+
+/**Reset Bootstrap*/
+.dropdown-toggle::after {
+    content: none;
+    display: none;
+}
+
+.col-width{
+    width: 100%;;
+}
+
+.commentscard{
+   margin-top: 2%;
+   background-color: #eeeeee;
+   border-radius: 10%;
+   height: 3%;
+}
+
+.well::after {
+    line-break: strict;
+}
+
+.input1{
+    width:75%;
+}
+
+.wrapper-post{
+    margin-left: 1rem;
+}

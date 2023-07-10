@@ -1,0 +1,93 @@
+.navbar{margin-bottom:0;}
+section{width:100%; float:left;}
+.banner-section{ 
+    /* Write css to add the background banner image "../assets/social.jpg"  in the section */
+    background-image: url("../assets/social.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.post-title-block{padding:100px 0; }
+.post-title-block h1 {color: #523A28; font-size: 6rem; font-weight: bold; text-transform: capitalize; text-shadow: 2px 2px grey;}
+.post-title-block li{font-size:20px; color: #523A28; text-shadow: 1px 1px white;}
+.image-block{float:left; width:100%; margin-bottom:10px;}
+.footer-link{float:left; width:100%; background:#222222; text-align:center; padding:30px;}
+.footer-link a{color:#A9FD00; font-size:18px; text-transform:uppercase;}
+
+.navlogo{
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    line-height: 60px;
+}
+.ulclass{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.ulclass li a{
+    text-decoration: none;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 80px;
+}
+nav li:hover,nav li:active {
+    background-color: black;
+    border-radius: 10px;
+    transition: 1s;
+}
+nav a{
+    color:white;
+    font-size: 18px;
+    padding: 7px 10px;
+}
+nav #icon{
+    color: white;
+    line-height: 80px;
+    font-size: 30px;
+    float:right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+@media(max-width:800px)
+{
+    nav #icon{
+        display: block;
+    }
+    nav ul{
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        background-color: #222222;
+        transition:1s;
+        top: 80px;
+        text-align: center;
+    }
+    nav li{
+        display: block;
+        line-height: 40px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    nav ul.show{
+        display: block;
+        
+       
+    }
+    nav #icon.show{
+        background-color: #A9FD00;
+    }
+}

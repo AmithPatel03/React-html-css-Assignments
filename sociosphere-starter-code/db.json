@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "There are countless excellent resources on data science, and it can be a little overwhelming to know where to start. This article will list some of the most useful blogs and websites for everyone—from data science experts to complete newbies. In addition to offering advice and learning resources, this list of data science blogs is also full of websites to keep informed about current news, trends, and opinions from professionals. If you’re just getting started and want to learn a little more about the subject itself, also check out our list of the best books about data science for beginners (link).",
+      "author": "John Rodson",
+      "like": true
+    },
+    {
+      "id": 2,
+      "title": "There are countless excellent resources on data science, and it can be a little overwhelming to know where to start. This article will list some of the most useful blogs and websites for everyone—from data science experts to complete newbies. In addition to offering advice and learning resources, this list of data science blogs is also full of websites to keep informed about current news, trends, and opinions from professionals. If you’re just getting started and want to learn a little more about the subject itself, also check out our list of the best books about data science for beginners (link).",
+      "author": "Ricky Rochel",
+      "like": true
+    },
+    {
+      "id": 3,
+      "title": "There are countless excellent resources on data science, and it can be a little overwhelming to know where to start. This article will list some of the most useful blogs and websites for everyone—from data science experts to complete newbies. In addition to offering advice and learning resources, this list of data science blogs is also full of websites to keep informed about current news, trends, and opinions from professionals. If you’re just getting started and want to learn a little more about the subject itself, also check out our list of the best books about data science for beginners (link).",
+      "author": "Shyane Pickson",
+      "like": true
+    },
+    {
+      "id": 4,
+      "title": "There are countless excellent resources on data science, and it can be a little overwhelming to know where to start. This article will list some of the most useful blogs and websites for everyone—from data science experts to complete newbies. In addition to offering advice and learning resources, this list of data science blogs is also full of websites to keep informed about current news, trends, and opinions from professionals. If you’re just getting started and want to learn a little more about the subject itself, also check out our list of the best books about data science for beginners (link).",
+      "author": "John Rodson",
+      "like": false
+    },
+    {
+      "id": 5,
+      "title": "A good thing take time",
+      "author": "Anynomous",
+      "like": false
+    },
+    {
+      "id": 6,
+      "title": "Hello Good Morning Champ ",
+      "author": "Dikshit Kumar",
+      "like": true
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "Excellent post!!",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "Well said!",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "body": "nic",
+      "postId": 1
+    },
+    {
+      "id": 4,
+      "body": "Nic one's",
+      "postId": 5
+    },
+    {
+      "id": 5,
+      "body": "Hope you are doing well..",
+      "postId": 6
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta hWe link people's opinions together.ttp-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/addpost.css">
+  <script src="../js/addpost.js"></script>
+  <script src="../js/addcomment.js"></script>
+  <script src="../js/navigationToggle.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Sociosphere.in</title>
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-static-top navheader">
+    <!-- Write code to make repsonsive header/ Navigation bar with link to Posts page (addpost.html) -->
+    <label class="navlogo">Sociosphere</label>
+    <ul class="ulclass">
+      <li><a href="../html/index.html" class="active">Home</a></li>
+      <li><a href="../html/addpost.html">Post</a></li>
+      <li><a href="#">About</a></li>
+      <br>
+    </ul>
+    <label id="icon">
+      <i class="fa fa-bars" onclick="display()" aria-hidden="true"></i>
+    </label>
+  </nav>
+  <section class="banner-section">
+    <!-- Write css to add backgroung image from the assets folder -->
+    <div class="col-lg-12 col-md-12 col-sm-12 post-title-block">
+      <h1 class="text-center">Sociosphere</h1>
+      <ul class="list-inline text-center">
+        <li>Where can people meet and connect!!</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="row">
+    <div class="container-fluid gedf-wrapper">
+    </div>
+    <!--- Add Post-->
+    <div class="well wrapper-post">
+      <div class="media">
+        <div class="media-body">
+          <h4 class="media-heading">Add Post</h4>
+
+          <div class=" mb-3 row">
+            &nbsp; &nbsp; <input type="text" id="post" class=" form-control input1"
+              placeholder=" Pour whats on your mind-Author Name">
+          </div>
+          <br>
+          <button class="btn btn-primary" onclick="addpost()">POST</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- All post  -->
+  <div id="allrow">
+  </div>
+
+  </div>
+
+  <section class="footer-link">
+    <a href="../html/index.html" target="_blank"> @Copyright www.sociosphere.in</a>
+  </section>
+
+</body>
+
+</html>
